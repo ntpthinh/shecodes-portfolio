@@ -75,10 +75,10 @@ h2 {
   flex-direction: column;
 }
 
-.display-flex-row {
+/* .display-flex-row {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .background-image {
   background-size: cover;
