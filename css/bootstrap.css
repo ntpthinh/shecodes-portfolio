@@ -4,3 +4,16 @@ a:hover {
 .header__btnMenu i {
   color: #fff;
 }
+body {
+  font-family: "Roboto", Arial, sans-serif !important;
+  color: #999 !important;
+  line-height: 1.8 !important;
+}
+h2 {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+.card-header {
+  border: none !important;
+  padding: 0 !important;
+}
