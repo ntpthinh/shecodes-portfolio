@@ -13,26 +13,62 @@
     <link rel="stylesheet" href="css/pricing.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div class="flex-row header">
-      <nav class="flex-row">
+    <div class="d-flex header">
+      <nav class="navbar navbar-expand-lg d-flex">
         <a href="https://shecodesvietnam.com/#/" target="_blank"
           ><img src="img/logo.png" height="30px"
         /></a>
-        <ul class="flex-row" style="margin: 0">
-          <li class="nav-link"><a href="#home">Home</a></li>
-          <li class="nav-link"><a href="#about">About</a></li>
-          <li class="nav-link"><a href="#services">Services</a></li>
-          <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
-          <li class="nav-link"><a href="#blog">Blog</a></li>
-          <li class="nav-link"><a href="#pricing">Pricing</a></li>
-          <li class="nav-link"><a href="#contact">Contact</a></li>
-        </ul>
+        <button
+          class="navbar-toggler header__btnMenu mx-5"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-list fa-lg" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
     <section id="home" class="background-image hero-wrap">
@@ -45,14 +81,17 @@
             Vokalia and Consonantia, there live the blind texts.
           </p>
           <p style="margin: 24px 0 48px">
-            <a href="#" class="btn btn-primary" style="padding: 16px 24px"
+            <a
+              href="#"
+              class="styled-btn styled-btn-primary"
+              style="padding: 16px 24px"
               >Hire Me
               <span
                 class="fa fa-long-arrow-right"
                 style="margin-left: 10px"
               ></span
             ></a>
-            <a href="#" class="btn btn-white"
+            <a href="#" class="styled-btn styled-btn-white"
               >View Portfolio
               <span
                 class="fa fa-long-arrow-right"
@@ -71,7 +110,7 @@
     <section id="about">
       <div class="background-image about-img"></div>
       <div class="about-right">
-        <div class="nav-item"><a href="#">ABOUT ME</a></div>
+        <div class="nav-item1"><a href="#">ABOUT ME</a></div>
         <div>
           <h2 style="margin: 24px 0 8px">My Story</h2>
           <p>
@@ -96,7 +135,7 @@
           Services I'll Provide My Clients
         </h2>
       </div>
-      <div class="flex-row section-content">
+      <div class="d-flex section-content">
         <div class="services-item">
           <div class="img-bg">
             <img src="img/code.svg" width="40px" />
@@ -153,8 +192,8 @@
     </section>
     <section id="statistics" class="background-image">
       <div class="overlay"></div>
-      <div class="flex-row statistics-container">
-        <div class="flex-row">
+      <div class="d-flex statistics-container">
+        <div class="d-flex">
           <img
             src="img/customer-review.svg"
             width="60px"
@@ -165,14 +204,14 @@
             <span class="caption">HAPPY CUSTOMERS</span>
           </div>
         </div>
-        <div class="flex-row">
+        <div class="d-flex">
           <img src="img/complete.svg" width="60px" style="margin-right: 20px" />
           <div class="flex-column">
             <span class="statistics-number">320</span>
             <span class="caption">PROJECTS COMPLETED</span>
           </div>
         </div>
-        <div class="flex-row">
+        <div class="d-flex">
           <img src="img/coffee.svg" width="60px" style="margin-right: 20px" />
           <div class="flex-column">
             <span class="statistics-number">1,000</span>
@@ -254,9 +293,9 @@
         <span class="subheading">TESTIMONIAL</span>
         <h2>Our Successful Students</h2>
       </div>
-      <div class="flex-row section-content">
+      <div class="d-flex section-content">
         <div class="flex-column testimonial-card">
-          <div class="flex-row card-header">
+          <div class="d-flex card-header">
             <div style="position: relative">
               <img src="img/testimonial-1.png" class="testimonial-img" />
               <div class="icon-wrap">
@@ -274,7 +313,7 @@
           </div>
         </div>
         <div class="flex-column testimonial-card">
-          <div class="flex-row card-header">
+          <div class="d-flex card-header">
             <div style="position: relative">
               <img src="img/testimonial-2.png" class="testimonial-img" />
               <div class="icon-wrap">
@@ -292,7 +331,7 @@
           </div>
         </div>
         <div class="flex-column testimonial-card">
-          <div class="flex-row card-header">
+          <div class="d-flex card-header">
             <div style="position: relative">
               <img src="img/testimonial-3.png" class="testimonial-img" />
               <div class="icon-wrap">
@@ -480,7 +519,7 @@
         <span class="subheading">MY PRICING</span>
         <h2>Pricing & Packages</h2>
       </div>
-      <div class="flex-row section-content">
+      <div class="d-flex section-content">
         <div class="flex-column pricing-item">
           <span class="plan">BASIC PLAN</span>
           <span>
@@ -491,7 +530,7 @@
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
           </p>
-          <a href="#" class="btn button">GET STARTED</a>
+          <a href="#" class="styled-btn button">GET STARTED</a>
         </div>
         <div class="flex-column pricing-item">
           <span class="plan">BEGINNER PLAN</span>
@@ -503,7 +542,7 @@
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
           </p>
-          <a href="#" class="btn button">GET STARTED</a>
+          <a href="#" class="styled-btn button">GET STARTED</a>
         </div>
         <div class="flex-column pricing-item">
           <span class="plan">PREMIUM PLAN</span>
@@ -515,7 +554,7 @@
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
           </p>
-          <a href="#" class="btn button">GET STARTED</a>
+          <a href="#" class="styled-btn button">GET STARTED</a>
         </div>
       </div>
     </section>
@@ -581,7 +620,11 @@
             rows="4"
             placeholder="Create a message here"
           ></textarea>
-          <input type="submit" value="Send Message" class="btn btn-primary" />
+          <input
+            type="submit"
+            value="Send Message"
+            class="styled-btn styled-btn-primary"
+          />
         </form>
         <div class="follow-me">
           <h3>Follow me here</h3>
@@ -597,10 +640,10 @@
     <section class="contact-me">
       <div class="container">
         <div class="contact-left">
-          <h2>Have any works you want to done by me?</h2>
+          <h3 class="text-light">Have any works you want to done by me?</h3>
           <p style="margin-top: 0px">Far far away, behind the word mountains</p>
         </div>
-        <a href="#" class="btn contact-btn">Contact Me</a>
+        <a href="#" class="styled-btn contact-styled-btn">Contact Me</a>
       </div>
     </section>
     <footer>
@@ -624,7 +667,7 @@
           </ul>
         </div>
         <div class="mid-section">
-          <h2>Services</h2>
+          <h5 class="text-dark mb-5">Services</h5>
           <ul class="list-services">
             <li>
               <a href="#">
@@ -649,7 +692,7 @@
           </ul>
         </div>
         <div class="right-section">
-          <h2>Have a Question?</h2>
+          <h5 class="text-dark mb-5">Have a Question?</h5>
           <div class="right-section-content">
             <span class="fa fa-map icon"></span>
             <span class="content-text"
@@ -682,5 +725,19 @@
         </p>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

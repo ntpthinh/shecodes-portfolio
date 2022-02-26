@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="result.html" method="get" target="_blank">
+    <div>
+      <label for="username">Tên đăng nhập: </label>
+      <input name="username" id="username" type="text" placeholder="ten dang nhap" size="10" required >
+    </div>
+    <div>
+      <label for="age">Tuổi: </label>
+      <input name="age" type="number" id="age">
+    </div>
+    <div>
+      <label for="year">Năm sinh: </label>
+      <input name="year" type="number" id="year" max="2022" min="1900">
+    </div>
+    <div>
+      <label for="gender">Giới tính: </label>
+     <input type="radio" name="gender" value="nam">
+     <label>Nam</label>
+     <input type="radio" name="gender" value="nu">
+     <label>Nữ</label>
+    </div>
+    <div>
+      <label for="hobby">Sở thích</label>
+      <input type="checkbox" name="hobby" value="music"> <label>Nghe nhạc</label>
+      <input type="checkbox" name="hobby" value="book"> <label>Đọc sách</label>
+    </div>
+    <div> 
+      <label for="email">Email: </label>
+      <input name="email" type="email" >
+    </div>
+    <div>
+      <label for="eyeColor">Eye Color</label>
+      <select name="eyeColor" id="eyeColor" multiple>
+        <option value="Green">Green</option>
+        <option label="Red" value="Red"></option>
+      </select>
+    </div>
+    <div> 
+      <label>Tin nhắn: </label>
+      <textarea maxlength="10"></textarea>
+    </div>
+    <input type="color">
+    <div> 
+      <label for="password">Mật khẩu: </label>
+      <input name="password" type="password" >
+    </div>
+    <button type="reset">Nhập lại</button>
+    <button type="submit">Nộp đơn</button>
+  </form>
+  <b>SheCodes</b>
+  <u>li</u>
+  <em>Hello</em>
+  <iframe src="https://ntpthinh.github.io/shecodes-portfolio/#home" width="1000"></iframe>
+</body>
+</html>
