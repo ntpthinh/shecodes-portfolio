@@ -39,7 +39,7 @@
   margin: 3rem 0;
 }
 
-.nav-item {
+.nav-item1 {
   background-color: #0779e4;
   padding: 8px 16px;
   border-radius: 4px;
@@ -47,7 +47,7 @@
   width: fit-content;
 }
 
-.nav-item::after {
+.nav-item1::after {
   position: absolute;
   bottom: -5px;
   left: 50%;
@@ -60,7 +60,7 @@
   border-color: #0779e4 transparent transparent transparent;
 }
 
-.nav-item a {
+.nav-item1 a {
   text-decoration: none;
   font-size: 13px;
   font-weight: 700;
